@@ -1,0 +1,12 @@
+5.1 The command cp ../temp-* . is used to copy files that match the pattern temp-* 
+from the parent directory (../) to the current directory (.).
+
+5.2 The git init command is only needed when you want to create a new repository 
+from scratch. Since we cloned an existing repository, it already contains the necessary 
+Git metadata (.git folder), so we can directly track, commit, and push changes 
+without reinitializing it.
+
+5.3 
+git add temp-data.csv temp-average.py, temp-doc.txt
+git commit -m "Added files from my-first-project"
+git push origin main
